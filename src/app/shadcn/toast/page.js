@@ -4,6 +4,13 @@ import React from "react";
 import { toast } from "sonner";
 
 const ToastPage = () => {
+    const sum= ()=>{
+       let a = 20
+       let b = 30
+       let sum = a+b
+       console.log(sum)
+
+    }
   const handleToast = () => {
     const now = new Date();
     const weekday = now.toLocaleDateString(undefined, { weekday: "long" });
@@ -18,14 +25,14 @@ const ToastPage = () => {
       action: {
         label: "X",
         onClick: () => {
-          console.log("undo");
+         sum()
         },
       },
     });
   };
 
   return (
-    <div>
+    <div className="mt-[20px] ml-[20px]">
       <Button onClick={handleToast}>Toast</Button>
     </div>
   );
