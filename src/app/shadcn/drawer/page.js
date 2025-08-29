@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 
-const page = () => {
+const DrawerPage = () => {
   return (
     <Drawer>
       <DrawerTrigger asChild>
@@ -32,4 +32,4 @@ const page = () => {
     </Drawer>
   );
 };
-export default page;
+export default DrawerPage;

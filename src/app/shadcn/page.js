@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Page = () => {
+const ShadCn = () => {
   return (
-    <div>shade cn</div>
+    <div>Shadcn</div>
   )
 }
 
-export default Page
+export default ShadCn
