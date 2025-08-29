@@ -42,3 +42,4 @@ export default ToastPage;
 
 // we can also add toast colors like success , error , warning etc
 // here we can pass more description to toast like that like description and action which contain a call back function
+// we can also add icon and duration in toast 
