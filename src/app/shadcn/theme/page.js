@@ -15,6 +15,8 @@ const  ModeToggle=()=> {
   const { setTheme } = useTheme()
 
   return (
+    <div>
+        <h1>hello dark mode</h1>
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="icon">
@@ -35,6 +37,7 @@ const  ModeToggle=()=> {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
+    </div>
   )
 }
 export default ModeToggle;
